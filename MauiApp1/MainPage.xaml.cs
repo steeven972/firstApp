@@ -1,12 +1,16 @@
-﻿namespace MauiApp1
+﻿using MauiApp1.models;
+using Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific;
+
+namespace MauiApp1
 {
     public partial class MainPage : ContentPage
     {
         int count = 0;
-
+        int click = 0;
         public MainPage()
         {
             InitializeComponent();
+            
         }
 
         private void OnCounterClicked(object sender, EventArgs e)
@@ -20,6 +24,9 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
+        
+
     }
 
 }

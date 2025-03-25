@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            >
+           
+        <Label
+            Text="Connection"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="30"/>
+            <HorizontalStackLayout
+                HorizontalOptions="Center">
+                <Button
+                x:Name="SignUp"
+                Text="SignUp"
+                FontSize="25"
+                Margin="5"
+                Clicked="SignUp_Clicked"
+                />
+                <Button
+                x:Name="LogIn"
+                Text="LogIn"
+                FontSize="25"
+                Margin="5"
+                Clicked="LogIn_Clicked"
+                />
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
