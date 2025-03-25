@@ -29,5 +29,18 @@
       x:Name="EmailLabel"
       Style="{StaticResource SubHeadline}"
        />
+
+        <Button
+            x:Name="postulate"
+            Text="Postuler"
+            Clicked="postulate_Clicked"
+            BackgroundColor="#FF0000"
+            TextColor="White"
+            CornerRadius="20"
+            HeightRequest="50"
+            WidthRequest="200"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            />
     </VerticalStackLayout>
 </ContentPage>

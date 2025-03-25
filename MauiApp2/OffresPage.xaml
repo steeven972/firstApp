@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.OffresPage"
+             Title="OffresPage">
+    <VerticalStackLayout>
+        <StackLayout
+            x:Name="showOfferLayout"
+            Padding="10"
+            HeightRequest="100">
+            <HorizontalStackLayout
+                
+                
+                VerticalOptions="Center">
+                <Label
+                    Text="Developper web full stack"
+                    Margin="10"
+                    FontSize="20"/>
+                <Button
+                    x:Name="PostulateBtn"
+                    Text="Postuler"
+                    Clicked="PostulateBtn_Clicked"
+                    BackgroundColor="#2626D0"
+                    />
+
+            </HorizontalStackLayout>
+            
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
