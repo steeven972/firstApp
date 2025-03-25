@@ -8,7 +8,7 @@
     Title="MauiApp2">
 
     <ShellContent
-        Title="Connection Page"
+        
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" 
         />

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.LoginPage"
+             >
+    <VerticalStackLayout>
+        <Label 
+            Text="Log in"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="40"/>
+
+        <Border
+            StrokeThickness="2"
+            Padding="15"
+            WidthRequest="400"
+            Margin="30"
+            >
+            <Frame 
+                CornerRadius="20" 
+                Padding="0" 
+                HasShadow="True" 
+                BackgroundColor="Transparent"
+                BorderColor="Transparent"
+                >
+                <VerticalStackLayout>
+                    <Entry 
+                        x:Name="NameEntry" 
+                        Placeholder="Name" 
+                        FontSize="20"
+                        Margin="10"/>
+                    <Entry 
+                        x:Name="EmailEntry" 
+                        Placeholder="Email" 
+                        FontSize="20"
+                        Margin="10"/>
+                    <Entry
+                        x:Name="PasswordEntry"
+                        Placeholder="Password"
+                        FontSize="20"
+                        Margin="10"
+                        IsPassword="True"/>
+
+                    <Button 
+                        x:Name="LogInButton" 
+                        Text="Log in" 
+                        FontSize="20"
+                        Margin="10"
+                        Clicked="LogInButton_Clicked"/>
+                </VerticalStackLayout>
+            </Frame>
+        </Border>
+
+    </VerticalStackLayout>
+</ContentPage>

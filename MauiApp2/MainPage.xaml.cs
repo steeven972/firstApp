@@ -1,4 +1,5 @@
-﻿using MauiApp1.models;
+﻿using System.Threading.Tasks;
+using MauiApp1.models;
 
 namespace MauiApp2
 {
@@ -13,14 +14,14 @@ namespace MauiApp2
 
         }
 
-        private void LogIn_Clicked(object sender, EventArgs e)
+        private async void LogIn_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new LoginPage());
         }
 
-        private void SignUp_Clicked(object sender, EventArgs e)
+        private async void SignUp_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new SignupPage());
         }
     }
 

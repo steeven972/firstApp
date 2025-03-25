@@ -472,3 +472,5 @@ C:\Users\steev\source\repos\steeven972\firstApp\MauiApp2\obj\Debug\net9.0-window
 C:\Users\steev\source\repos\steeven972\firstApp\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\steev\source\repos\steeven972\firstApp\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\woman_profil.scale-100.jpg
 C:\Users\steev\source\repos\steeven972\firstApp\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\woman_profil.scale-100.jpg
+C:\Users\steev\source\repos\steeven972\firstApp\MauiApp2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\profil_user.scale-100.jpg
+C:\Users\steev\source\repos\steeven972\firstApp\MauiApp2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\profil_user.scale-100.jpg
